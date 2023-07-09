@@ -66,3 +66,47 @@ font-weight: 600;
 padding: 15px 20px;
 border: none;
 }
+
+/* banner section styles */
+.banner-info
+{
+    width: 100vw;
+}
+
+.banner-inner{
+   display: flex;
+   gap: 50px;
+   justify-content: space-around;
+   text-align: center;
+   margin-top: 135px;
+
+}
+
+.banner-images{
+    width: 440px;
+}
+
+.banner-content{
+    max-width: 415px;
+}
+
+.banner-description{
+    color: #444343;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.banner-title{
+    color: #151414;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    margin-right: 100px;
+}
+
+.banner-content ol li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+
