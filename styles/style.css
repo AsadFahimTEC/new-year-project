@@ -18,7 +18,7 @@ body{
 }
 
 .header{
-    background-image: url(/images/banner/banner3.png);
+    background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -70,7 +70,8 @@ border: none;
 /* banner section styles */
 .banner-info
 {
-    width: 100vw;
+    width: 70%;
+    margin: auto;
 }
 
 .banner-inner{
@@ -78,35 +79,46 @@ border: none;
    gap: 50px;
    justify-content: space-around;
    text-align: center;
-   margin-top: 135px;
+   
+   
 
 }
 
 .banner-images{
     width: 440px;
+    margin: auto;
 }
 
 .banner-content{
-    max-width: 415px;
+    width: 70%;
+    margin: auto;
 }
 
 .banner-description{
+    display: flex;
     color: #444343;
-    line-height: 26px;
-    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .banner-title{
+    display: flex;
     color: #151414;
-    font-size: 42px;
+    font-size: 40px;
     font-weight: 700;
-    margin-bottom: 24px;
-    margin-right: 100px;
+    margin-right: 155px;
+    margin-bottom: 15px;
 }
 
+
 .banner-content ol li{
+    display: flex;
+    color: #444343;
+    font-size: 15px;
+    font-weight: 400;
     list-style: none;
-    margin-bottom: 12px;
+    margin-left: 16px;
+    margin-bottom: 6px;
 }
 
 /* plan section styles */
